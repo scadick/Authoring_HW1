@@ -7,6 +7,11 @@ var dynamicContent = {
 			images : [
 				"spring_1.jpg",
 				"spring_2.jpg"
+			],
+
+			imagesDescription : [
+				'This is some pretty btterflies',
+				'This is some kind of mutant chicken'
 			]
 		},
 
