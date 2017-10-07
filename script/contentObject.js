@@ -6,12 +6,20 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
 			],
 
 			imagesDescription : [
-				'This is some pretty btterflies',
-				'This is some kind of mutant chicken'
+				'This is some pretty butterflies',
+				'This is some kind of mutant chicken',
+				'These are some birds on pink flowers',
+				'These are flowers in a meadow',
+				'This is a walkway under trees with pink leaves',
+				'This is the word "Spring"'
 			]
 		},
 
@@ -22,7 +30,20 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpg",
+				"summer_5.jpg",
+				"summer_6.jpg"
+			],
+			
+			imageDescription : [
+			'These are colorful beach chairs',
+			'This is a dog in a hammock',
+			'These are beach equipment',
+			'This is a dog with sunglasses',
+			'This is the word "Summer" in the sand',
+			'This is a starfish on the beach'
 			]
 		},
 
@@ -33,7 +54,19 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"
+			],
+			imageDescription : [
+			'This is a walkthrough the forest',
+			'These are items associated with the fall',
+			'This is a leaf on the bottom of a shoe',
+			'This is a bridge in the forest',
+			'These are deer in the forest',
+			'This is an arch in the forest'
 			]
 		},
 
@@ -44,7 +77,19 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpg",
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg"
+			],
+			imageDescription : [
+			'This is the forest in winter',
+			'This is a snowman',
+			'This is a bench in the snow',
+			'These are skiiers down the slopes',
+			'This is a horse in the snow',
+			'These are branches in the winter'
 			]
 		}
 	};
