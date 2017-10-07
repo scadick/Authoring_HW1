@@ -24,10 +24,10 @@
           // add an image source
           newSubImg.src = "images/" + objectIndex.images[index];
 
-          //add an index number to the thumbnil for array reference
+          // add an index number to the thumbnail for array reference
           newSubImg.dataset.index = index;
 
-          // add some event handling // trigger the lightbox
+          // add some event handling
           newSubImg.addEventListener('click', function() { popLightbox(index, objectIndex); }, false);
 
           // append it to the container
@@ -70,14 +70,12 @@
         lightboxImg.src = "images/" + currentObject.images[currentIndex];
         lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
 
-        lightboxClose.addEventListener('click', closeLightBox, false);
+        lightboxClose.addEventListener('click', closeLightbox, false);
       }
 
-      function closeLightBox() {
+      function closeLightbox() {
         debugger;
-        //reset all the lightbox content, close the lightbox (not necessarily in that order)
       }
-
       // initialize the app
       // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
       // theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
