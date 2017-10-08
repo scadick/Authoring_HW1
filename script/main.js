@@ -3,6 +3,7 @@
       theHeader = document.querySelector('.heading'),
       theSubhead = document.querySelector('.main-copy h2'),
       theSeasonText = document.querySelector('.main-copy p'),
+	  lightboxClose = document.querySelector('.close-lightbox'),
       appliedClass;
 
       function changeElements() {
@@ -55,8 +56,8 @@
 
       function popLightbox(currentIndex, currentObject) {
         //debugger;
-        window.scrollTo(0, 0);
         document.body.style.overflow = "hidden";
+		document.body.style.display = "auto";
 
         // turn on the lightbox
         let lightbox = document.querySelector('.lightbox');
@@ -70,11 +71,14 @@
         lightboxImg.src = "images/" + currentObject.images[currentIndex];
         lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
 
-        lightboxClose.addEventListener('click', closeLightbox, false);
+        lightboxClose.addEventListener('click', '.close-lightbox', false);	
+		
       }
 
       function closeLightbox() {
-        debugger;
+        //debugger;
+		
+		
       }
       // initialize the app
       // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;

@@ -41,6 +41,7 @@ section {
 .main-copy {
 	background-color: #FFF;
 	font-size: 1.5em;
+	margin: 0 auto;
 }
 
 .main-copy h2 {
@@ -60,9 +61,15 @@ section {
 	padding-bottom: 20px;
 }
 
-.subImagesContainer { padding: 0; }
+.subImagesContainer { 
+	padding: 0;
+}
 
-.thumb { height: 90px; margin: 8px; cursor: pointer; }
+.thumb { 
+	height: 90px;
+ 	margin: 8px; 
+ 	cursor: pointer;
+ }
 
 .lightbox {
 	position: absolute;
@@ -85,5 +92,11 @@ section {
 }
 
 .lightbox-img {
-	display: auto;
+	margin-top: 10%;
+	margin-left: 25%;
+	height: 300px;
+}
+
+.img-desc {
+	margin-left: 25%;
 }
