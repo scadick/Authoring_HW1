@@ -56,8 +56,8 @@
 
       function popLightbox(currentIndex, currentObject) {
         //debugger;
+        window.scrollTo(0, 0);
         document.body.style.overflow = "hidden";
-		document.body.style.display = "auto";
 
         // turn on the lightbox
         let lightbox = document.querySelector('.lightbox');
@@ -71,12 +71,15 @@
         lightboxImg.src = "images/" + currentObject.images[currentIndex];
         lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
 
-        lightboxClose.addEventListener('click', '.close-lightbox', false);	
-		
+        lightboxClose.addEventListener('click', closeLightbox, false);	
       }
 
       function closeLightbox() {
         //debugger;
+		console.log('.close-lightbox');
+		let lightbox = document.querySelector('.lightbox');
+		lightbox.style.display = "none";
+		document.body.style.overflow="visible";
 		
 		
       }
