@@ -24,7 +24,10 @@ section, article, .subImagesContainer { position: relative; width: 635px; margin
 	opacity: 0.3;
 }
 
-section { margin-top: 15px; background-color: #FFF; }
+section {
+	margin-top: 15px;
+	background-color: #FFF;
+}
 
 #summer { background-position: -146px 0; }
 #autumn { background-position: -293px 0; }
@@ -35,14 +38,19 @@ section { margin-top: 15px; background-color: #FFF; }
 .autumn { color: #930d03; }
 .winter { color: #02c5e5; }
 
-.main-copy { background-color: #FFF; font-size: 1.5em; }
+.main-copy {
+	background-color: #FFF;
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+
 .main-copy h2 {
 	text-transform: capitalize;
 	text-align: left;
 	padding-left: 20px;
 	padding-top: 20px;
-	margin: 0; b
-	order:0px;
+	margin: 0;
+	order: 0px;
 }
 
 .main-copy p {
@@ -53,6 +61,43 @@ section { margin-top: 15px; background-color: #FFF; }
 	padding-bottom: 20px;
 }
 
-.subImagesContainer { padding: 0; }
+.subImagesContainer { 
+	padding: 0;
+}
 
-.thumb { height: 90px; margin: 8px; cursor: pointer; }
+.thumb { 
+	height: 90px;
+ 	margin: 8px; 
+ 	cursor: pointer;
+ }
+
+.lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.85);
+	color: white;
+	z-index: 500;
+}
+
+.close-lightbox{
+	float: right;
+	margin-right: 18px;
+	margin-top: 12px;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.lightbox-img {
+	margin-top: 10%;
+	margin-left: 30%;
+	height: 300px;
+}
+
+.img-desc {
+	margin-left: 30%;
+}
+
